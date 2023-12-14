@@ -1,4 +1,6 @@
-le true; do
+#!/bin/bash
+
+while true; do
 # Display the prompt
 printf "simple_shell> "
 # Read the user input
@@ -16,5 +18,4 @@ else
 # Print an error message if the command is not found
 echo "Error: Command '$command' not found."
 fi
-done
-
+done0
